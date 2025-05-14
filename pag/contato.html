@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contato</title>
+    <link rel="Icon" type="Image/png" href="/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="/css/lindeza.css">
+</head>
+
+<body class="talk">
+    <section>
+        <a href="main.html"><img src="/img/back.png" class="back"></a>
+        <div class="conteiner2">
+            <h2>Fale conosco!</h2>
+            <p>Tem alguma ideia para nosso Fã Clube? ou quer se membrar? Preencha este formulário e entraremos em contato!</p>
+            <form name="frmfaleconosco" method="get" action="#">
+                <fieldset class="faleConosco">
+                    <legend>Dados pessoais:</legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="txtnome" id="nome">
+                    <label for="email">Email: </label>
+                    <input type="email" name="txtemail" id="email">
+                </fliedset>
+                <fieldset class="faleConosco">
+                    <legend>Motivo do contato:</legend>
+                    <label for="motivo">Motivo: </label>
+                    <select name="selmotivo" id="motivo">
+                        <option value="ES">Escolha</option>
+                        <option value="ID">Ideia</option>
+                        <option value="ME">Membrar-se</option>
+                    </select>
+                    <label for="comentario">Comentário: </label>
+                    <textarea name="txtcomentario" id="comentario"></textarea>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
